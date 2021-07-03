@@ -1,0 +1,7 @@
+user		<img src="https://img.icons8.com/ios-glyphs/30/000000/user-male--v1.png"/>
+
+segnalibro	<img src="https://img.icons8.com/ios-glyphs/30/000000/bookmark-ribbon.png"/>
+
+home		<img src="https://img.icons8.com/ios-glyphs/30/000000/home.png"/>
+
+search		<img src="https://img.icons8.com/ios-glyphs/30/000000/binoculars.png"/>

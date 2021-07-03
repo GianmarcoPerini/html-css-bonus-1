@@ -1,0 +1,363 @@
+/* =================
+        GENERAL
+================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #EAACC1,#D98BBD);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    height: 100%;
+}
+
+.container{
+    width: 70%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* =================
+        GENERAL
+================= */
+
+/* =================
+        NAV
+================= */
+
+.bar{
+    width: 80px;
+    height: 100%;
+    background-color: black;
+    padding-top: 50px;
+    position: relative;
+}
+
+.photo{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.photo img{
+    width: 100%;
+    transform: translateY(-14%);
+}
+
+.photo:hover{
+    transform: scale(1.5,1.5)
+}
+
+.info-box-bar{
+    width: 30px;
+    margin: 45px auto;
+    display: block;
+    cursor: pointer;
+}
+
+.info-box-bar img{
+    width: 100%;
+    margin: 8px 0; 
+    padding: 5px;  
+}
+
+.info-box-bar img:hover{
+    background-color: rgb(70, 70, 70);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.setting{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    width: 30px;
+    cursor: pointer;
+}
+
+.setting img{
+    width: 100%;
+    margin: 8px 0; 
+    padding: 5px;  
+}
+
+.setting img:hover{
+    background-color: rgb(70, 70, 70);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* =================
+        NAV
+================= */
+
+/* =================
+        CARDS
+================= */
+
+.description{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.info-box-main{
+    position: absolute;
+    top: 7%;
+    left: 150px;
+    width: 50%;
+}
+
+.first-title{
+    font-size: 1.5em;
+    font-weight: bold
+}
+
+.month, .day{
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+.time-scale{
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.time-scale:hover{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box-card{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+    font-size: .9em;
+    color: white;
+    border-radius: 20px;
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.1,1.1)
+}
+
+.card img{
+    width: 50%;
+}
+
+.VV{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.NN{
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+}
+
+.PP{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+    /* =================
+        COLORI
+    ================= */
+
+    .m1{
+        background-image: linear-gradient( 30deg, #314FAD 20%, #B6C8FF);
+    }
+    .m2{
+        background-image: linear-gradient(30deg, #009E9E 20%, #D0FFFF);
+        margin: 0 10px;
+    }
+    .m3{
+        background-image: linear-gradient(30deg, #C94599 20%, #FFD7F1);
+    }
+
+    /* =================
+        COLORI
+    ================= */
+
+/* =================
+        CARDS
+================= */
+
+/* =================
+    BEST SELLER
+================= */
+
+.best-seller{
+    width: 28%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color:#93804D;
+    font-size: .8em;
+}
+
+.best-seller-photo > p{
+    margin: 15px 0;
+    font-size: 1.5em
+}
+
+.best-seller-photo{
+    width: 70%;
+}
+
+.best-seller-photo img{
+    width: 100%;
+    margin-top: 50%;
+    border-radius: 20px;
+}
+
+.best-seller-info{
+    width: 100%;
+    height: 8%;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: normal;
+    font-size: 1em;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.best-seller-info > p{
+    padding: 0 10px
+}
+
+.best-seller-info:hover{
+    background-color: rgb(56, 56, 56)
+}
+
+.mini{
+    color: greenyellow
+}
+
+/* =================
+    BEST SELLER
+================= */
+
+/* =================
+    PROGRESS
+================= */
+
+.progress-box{
+    width: 50%;
+    height: 45%;
+    position: absolute;
+    bottom: 2%;
+    left: 150px;
+}
+
+.progress-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 1% 0;
+}
+
+.progress-card-box{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 0;
+}
+
+.progress-card{
+    width: calc(90% / 3);
+    height: 90%;
+    border-radius: 40px;
+    background-color: rgb(245, 245, 245);
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.progress-card:hover{
+    transform: scale(1.1,1.1);
+    background-color: rgb(230, 230, 230);
+}
+
+.pro-img{
+    position: relative;
+}
+
+.progress-card img{
+    width: 70%;
+    margin: 20px auto;
+    display: block;
+    position: relative;
+}
+
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-weight: bold;
+    transition: 200ms;
+}
+
+.progress-card > p{
+    text-align: center;
+    margin: 25px 20px;
+    color: black;
+    font-size: .7em;
+}
+
+/* =================
+    PROGRESS
+================= */
